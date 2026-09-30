@@ -1,10 +1,10 @@
-# 🚀 PySpark Streaming com Delta Lake
+# PySpark Streaming com Delta Lake
 
 Pipeline de processamento de dados em tempo real utilizando **PySpark Structured Streaming** e **Delta Lake**, seguindo a arquitetura em camadas **Bronze → Silver → Gold**.
 
 ---
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto simula um ambiente moderno de Engenharia de Dados capaz de receber eventos continuamente, processá-los em tempo real e disponibilizar dados confiáveis para análise.
 
@@ -19,7 +19,7 @@ O objetivo é demonstrar conhecimentos em:
 
 ---
 
-## 🏗️ Arquitetura
+## Arquitetura
 
 ```text
            Fonte de Dados
@@ -49,7 +49,7 @@ O objetivo é demonstrar conhecimentos em:
 
 ---
 
-## 🥉 Camada Bronze
+## Camada Bronze
 
 Responsável pela ingestão dos dados sem transformações relevantes.
 
@@ -61,7 +61,7 @@ Exemplos:
 
 ---
 
-## 🥈 Camada Silver
+## Camada Silver
 
 Responsável pela qualidade dos dados.
 
@@ -75,7 +75,7 @@ Transformações:
 
 ---
 
-## 🥇 Camada Gold
+## Camada Gold
 
 Responsável pelas regras de negócio e consumo analítico.
 
@@ -88,7 +88,7 @@ Exemplos:
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 - Python 3.x
 - Apache Spark
@@ -99,7 +99,7 @@ Exemplos:
 
 ---
 
-## 📂 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```text
 pyspark-streaming-delta/
@@ -123,7 +123,7 @@ pyspark-streaming-delta/
 
 ---
 
-## ⚙️ Instalação
+## Instalação
 
 Clone o repositório:
 
@@ -145,7 +145,7 @@ pip install -r requirements.txt
 
 ---
 
-## 📦 Dependências
+## Dependências
 
 ```txt
 pyspark
@@ -154,7 +154,7 @@ delta-spark
 
 ---
 
-## ▶️ Fluxo de Execução
+## Fluxo de Execução
 
 1. Receber dados em streaming.
 2. Armazenar os dados na camada Bronze.
@@ -164,7 +164,7 @@ delta-spark
 
 ---
 
-## 🎯 Objetivos de Aprendizado
+## Objetivos de Aprendizado
 
 - Trabalhar com processamento em tempo real.
 - Implementar pipelines utilizando PySpark.
@@ -174,7 +174,7 @@ delta-spark
 
 ---
 
-## 📈 Melhorias Futuras
+## Melhorias Futuras
 
 - [ ] Dockerização
 - [ ] Deploy em Databricks
@@ -185,7 +185,7 @@ delta-spark
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Renan Luis Trindade Nunes**
 
