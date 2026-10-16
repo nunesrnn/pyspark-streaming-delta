@@ -1,5 +1,3 @@
-<img width="4032" height="2076" alt="image" src="https://github.com/user-attachments/assets/e272e8e6-1d64-4582-a0cc-6e50c65b8caf" /># PySpark Streaming com Delta Lake
-
 Pipeline de processamento de dados em tempo real utilizando **PySpark Structured Streaming** e **Delta Lake**, seguindo a arquitetura em camadas **Bronze → Silver → Gold**.
 
 ---
